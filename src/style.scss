@@ -174,8 +174,10 @@ main {
 						text-align: center;
 						color: #131316;
 						margin-bottom: 10px;
-
 						height: 60px;
+            @media screen and (max-width: 500px) {
+              font-size: 17.5px;
+            }
 					}
 					.info-price {
 						display: flex;
@@ -191,6 +193,9 @@ main {
 							text-align: center;
 							text-decoration-line: line-through;
 							color: #d9d9d9;
+              @media screen and (max-width: 500px) {
+                font-size: 18px;
+              }
 						}
 						.new-price {
 							font-style: normal;
@@ -287,6 +292,9 @@ main {
 				height: 100%;
 				width: 400px;
 			}
+			@media screen and (max-width: 450px) {
+				width: 375px;
+			}
 			&__top {
 				display: flex;
 
@@ -352,6 +360,10 @@ main {
 						display: flex;
 						align-items: center;
 						color: #131316;
+						@media screen and (max-width: 500px) {
+							font-size: 20px;
+							justify-content: center;
+						}
 					}
 					p {
 						font-style: normal;
@@ -362,6 +374,9 @@ main {
 						align-items: center;
 						color: #131316;
 						margin-bottom: 20px;
+						@media screen and (max-width: 500px) {
+							font-size: 16px;
+						}
 					}
 					.right-info__price {
 						display: flex;
@@ -382,8 +397,11 @@ main {
 							align-items: center;
 							text-decoration-line: line-through;
 							color: #d9d9d9;
-
 							margin-right: 18px;
+
+							@media screen and (max-width: 500px) {
+								font-size: 18px;
+							}
 						}
 						.new-price {
 							font-style: normal;
@@ -396,6 +414,9 @@ main {
 							color: #131316;
 
 							margin-right: 20px;
+							@media screen and (max-width: 500px) {
+								font-size: 18px;
+							}
 						}
 						.sale {
 							font-style: normal;
@@ -412,6 +433,9 @@ main {
 							border-radius: 4px;
 							width: 60px;
 							height: 24px;
+							@media screen and (max-width: 500px) {
+								font-size: 18px;
+							}
 						}
 					}
 					.right-info__sale-block {
@@ -436,6 +460,10 @@ main {
 							display: flex;
 							align-items: center;
 							color: #131316;
+
+							@media screen and (max-width: 500px) {
+								font-size: 16px;
+							}
 						}
 
 						.saving span:last-child {
@@ -548,6 +576,7 @@ footer {
 				display: flex;
 				flex-direction: column;
 				align-items: center;
+        margin-bottom: 6px;
 			}
 			p {
 				font-style: normal;
@@ -556,6 +585,9 @@ footer {
 				line-height: 17px;
 				color: rgba(255, 255, 255, 0.5);
 				margin-bottom: 2px;
+        @media screen and (max-width: 500px) {
+          margin-bottom: 10px;
+        }
 			}
 			.phone a,
 			.mail a {
@@ -565,6 +597,12 @@ footer {
 				line-height: 21px;
 				color: #ffffff;
 				text-decoration: none;
+        @media screen and (max-width: 500px) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 10px;
+        }
 			}
 		}
 	}
