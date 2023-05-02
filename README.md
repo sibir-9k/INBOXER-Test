@@ -1,6 +1,6 @@
 # INBOXER-Test
 
-## [Тестовое задание](https://inboxer-test.vercel.app/)
+## [Тестовое задание с адаптивным макетом под разные типы экранов](https://inboxer-test.vercel.app/)
 
 ## Screenshots
 
